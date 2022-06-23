@@ -15,201 +15,158 @@
 </head>
 
 <body class="bg-secondary">
-    
-    <!-- <header class="clearfix bg-dark">
-        <div class="navbar text-white">
-            <nav class="navbar">
-                <div>
-                    <a href="index.html"><img class="float-left pl-3" width="200px" src="img/logo-sem-fundo.png" alt="Logo NextMovie"></a>
-                    <a class="nav-link float-left h5 p-3 pt-4 pl-5" href="index.html">Home</a>
-                    <a class="nav-link float-left h5 p-3 pt-4" href="planos.html">Planos</a>
-                    <a class="nav-link float-left h5 p-3 pt-4" href="sobre.html">Sobre</a>
-                    <a class="nav-link float-left h5 p-3 pt-4" href="entrar.html">Entrar</a>
-                </div>
-                <div>
-                    <form>
-                        <input class="rounded ml-4 p-2" type="search" placeholder="Pesquisar">
-                        <button class="btn btn-light rounded p-2">Pesquisar</button>
-                    </form>
-                </div>
-            </nav>
-        </div>
-    </header> -->
 
+    <!-- LOGO CABEÇALHO -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3">
         <a href="index.html"><img class="" width="170px" src="img/logo-sem-fundo.png" alt="Logo NextMovie"></a>
         <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
+
+        <!-- NAV CABEÇALHO -->
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link text-light h5 pl-4" href="index.html">Home <span class="sr-only">(página atual)</span></a>
-            </li>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light h5 pl-4" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+                </li>
 
-            <li class="nav-item">
-              <a class="nav-link text-light h5 pl-4" href="planos.html">Planos</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link text-light h5 pl-4" href="sobre.html">Sobre</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light h5 pl-4" href="planos.html">Planos</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light h5 pl-4" href="sobre.html">Sobre</a>
+                </li>
 
-            <li class="nav-item">
-              <a class="nav-link text-light h5 pl-4" href="entrar.html">Entrar</a>
-            </li>
-          </ul>
+                <li class="nav-item">
+                    <a class="nav-link text-light h5 pl-4" href="entrar.html">Entrar</a>
+                </li>
+            </ul>
 
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button class="btn btn-light my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
+            <!-- CAMPO DE PESQUISA CABEÇALHO-->
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-light my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+
         </div>
-      </nav>
-
+    </nav>
+    
+    <!-- INÍCIO DA PÁGINA -->
     <div class="container py-5 my-3">
         <div class="row">
-            <img class="col" src="img/logo-sem-fundo.png" alt="Logo NextMovie">
-            <p class="col text-light pt-5 lead">Assine a NextMovie hoje mesmo! Como assinante da NextMovie, você recebe 
-            cobranças automaticamente uma vez por mês no dia em que iniciou a assinatura. Você pode alterar seu plano ou cancelá-lo online quando quiser.</p>
+
+            <!-- LOGO -->
+            <div class="col-12 col-md-6">
+                    <img class="img-fluid" width="100%" height="auto" src="img/logo-sem-fundo.png" alt="Logo NextMovie">
+            </div>
+
+            <div class="col-12 col-md-6 pt-sm-4">
+
+                <!-- TEXTO -->
+                <p class="text-light pt-lg-4 lead">Assine a NextMovie hoje mesmo! Como assinante da NextMovie, você recebe 
+                    cobranças automaticamente uma vez por mês no dia em que iniciou a assinatura. Você pode alterar seu 
+                    plano ou cancelá-lo online quando quiser.
+                </p>
+
+            </div>
         </div>
     </div>
     
-    <div class="container pb-4">
-        <h2 class="display-4 text-center text-light mb-4">SOBRE</h2>
-        <div class="row">
-            <!-- PRIMEIRO QUADRO -->
-            <div class="col border mx-3 pt-3 rounded bg-light">
-                <p class="display-4 text-center py-2">O que é a NextMovie?</p>
-                <div class="d-flex flex-column justify-content-center align-items-center pt-2">
-                    <img class="p-2 rounded" width="800px" src="img/homem-tv.jpg" alt="Homem assistindo TV">
-                </div>
-                <div class="py-4 px-5 mx-auto my-3">  
-                    <p class="h4 lead px-4 ml-4"><strong>A NextMovie é um serviço de streaming por assinatura que permite assistir a séries e filmes sem</strong></p>
-                    <p class="h4 lead px-4"><strong>comerciais em um aparelho conectado à internet. Você também pode baixar seus títulos favoritos em</strong></p>
-                    <p class="h4 lead px-4"><strong>aparelhos iOS, Android ou Windows 10 para assistir quando não tiver internet.</strong></p>
-                </div>
+    <!-- CONTEÚDO SOBRE -->
+    <div class="row">
+        
+        <!-- QUADRO 1 - O QUE É A NEXT MOVIE? -->
+        <div class="card col-8 offset-2 d-flex justify-content-center align-items-center mb-5" style="width: 50rem;">
+            <h5 class="card-title display-4 p-3 text-center">O que é a NextMovie?</h5>
+            <img class="card-img-top px-5 w-75" src="img/homem-tv.jpg" alt="Homem assistindo TV">
+            <div class="card-body">
+                <p class="h4 lead px-5 mx-5"><strong>A NextMovie é um serviço de streaming por assinatura que permite assistir a séries e filmes sem</strong></p>
+                <p class="h4 lead px-5 mx-5"><strong>comerciais em um aparelho conectado à internet. Você também pode baixar seus títulos favoritos</strong></p>
+                <p class="h4 lead px-5 mx-5"><strong>em aparelhos iOS, Android ouWindows 10 para assistir quando não tiver internet.</strong></p>
+            </div>
+        </div>
+        
+        <!-- QUADRO 2 - APARELHOS COMPATÍVEIS -->
+        <div class="card col-8 offset-2 d-flex justify-content-center align-items-center mb-5" style="width: 50rem;">
+            <h5 class="card-title display-4 p-3 text-center">Aparelhos Compatíveis</h5>
+            <img class="card-img-top px-5 w-75" src="img/aparelhos.jpg" alt="Aparelhos Eletrônicos">
+            <div class="card-body pb-4">
+                <p class="h4 lead px-5 mx-5"><strong>Assista em qualquer aparelho conectado à internet compatível com o aplicativo NextMovie,</strong></p> 
+                <p class="h4 lead px-5 mx-5"><strong>como Smart TVs, videogames, aparelhos de streaming, decodificadores, smartphones e tablets.</strong></p>
+                <p class="h4 lead px-5 mx-5"><strong>Você também pode assistir no computador pelo navegador.</strong></p>
+            </div>
+
+            <!-- TABELA -->
+            <div class="d-flex justify-content-center align-items-center pb-5 text-center h4 lead px-5 mx-5">
+                <table style="border:1px solid black">
+                    <tr>
+                        <th></th>
+                        <th class="p-2 lead" style="border:1px solid black"><strong>Recomendação de megabits por segundo</strong></th>
+                    </tr>
+                    <tr>
+                        <th class="p-2 lead" style="border:1px solid black"><strong>Definição padrão (SD)</strong></th>
+                        <th class="p-2 lead" style="border:1px solid black"><strong>1 Mbps</strong></th>
+                    </tr>
+                    <tr>
+                        <th class="p-2 lead" style="border:1px solid black"><strong>Alta definição (HD)</strong></th>
+                        <th class="p-2 lead" style="border:1px solid black"><strong>720p: 3 Mbps  -  1080p: 5 Mbps</strong></th>
+                    </tr>
+                    <tr>
+                        <th class="p-2 lead" style="border:1px solid black"><strong>4K/Ultra HD (UHD)</strong></th>
+                        <th class="p-2 lead" style="border:1px solid black"><strong>15 Mbps</strong></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <!-- QUADRO 4 - PLANOS -->
+        <div class="card col-8 offset-2 d-flex justify-content-center align-items-center mb-5" style="width: 50rem;">
+            <h5 class="card-title display-4 p-3 text-center">Planos e Preços</h5>
+            <img class="card-img-top px-5 w-75" src="img/criancas-tv.jpg" alt="Crianças assistindo TV">
+            <div class="card-body">
+                <p class="h4 lead px-5 mx-5"><strong>Cada <a href="planos.html">plano</a> Netflix determina o número de aparelhos em que você pode assistir ao mesmo tempo</strong></p>
+                <p class="h4 lead px-5 mx-5"><strong>e se você prefere visualizar o conteúdo em definição padrão (SD), alta definição (HD) ou ultra-alta</strong></p>
+                <p class="h4 lead px-5 mx-5"><strong>definição (UHD). Compare <a href="planos.html">nossos planos e preços</a> e escolha o ideal para você. Você pode mudar de</strong></p>
+                <p class="h4 lead px-5 mx-5"><strong>plano ou cancelar online quando quiser.</strong></p>
+            </div>
+        </div>
+        
+        <!-- QUADRO 5 - COMECE A USAR JÁ! -->
+        <div class="card col-8 offset-2 d-flex justify-content-center align-items-center mb-5" style="width: 50rem;">
+            <h5 class="card-title display-4 p-3 text-center">Comece a usar já!</h5>
+            <img class="card-img-top px-5 w-75" src="img/casal.jpg" alt="Casal assistindo TV">
+            <div class="card-body">
+                <p class="h4 lead px-4 ml-4 pb-2"><strong>Siga estas orientações para começar a assistir à NextMovie hoje mesmo:</strong></p>
+                <ol>
+                    <li class="h4 lead px-5 mx-5"><strong>Acesse <a href="index.html">NextMovie</a></strong></li>
+                    <li class="h4 lead px-5 mx-5"><strong>Escolha o <a href="planos.html">plano</a> ideal para você.</strong></li>
+                    <li class="h4 lead px-5 mx-5"><strong><a href="entrar.html">Crie uma conta</a> usando seu email e uma senha.</strong></li>
+                    <li class="h4 lead px-5 mx-5"><strong>Insira uma forma de pagamento. As cobranças são feitas uma vez por mês, na data em que você assinou.</strong></li>
+                </ol>
+                <p class="h4 lead px-5 mx-5"><strong>Pronto. Divirta-se!</strong></p>
+            </div>
+        </div>
+        
+        <!-- QUADRO 6 - COMO PAGAR A NEXTMOVIE -->
+        <div class="card col-8 offset-2 d-flex justify-content-center align-items-center mb-5" style="width: 50rem;">
+            <h5 class="card-title display-4 p-3 text-center">Como pagar a assinatura NextMovie</h5>
+            <img class="card-img-top px-5 w-75" src="img/mulher-comendo-pipoca.jpg" alt="Mulher comendo pipoca">
+            <div class="card-body">
+                <p class="h4 lead px-5 mx-5"><strong>Escolha um <a href="planos.html">plano</a> adequado às suas necessidades e ao seu orçamento. Como assinante da</strong></p>
+                <p class="h4 lead px-5 mx-5"><strong>NextMovie, você é cobrado uma vez por mês no dia da sua assinatura. Existem várias maneiras</strong></p>
+                <p class="h4 lead px-5 mx-5"><strong>de pagar a NextMovie:</strong></p>
+                <ul class="h4 lead mx-5">
+                    <li class="h4 lead px-5 mx-5"><strong>Cartões de crédito</strong></li>
+                    <li class="h4 lead px-5 mx-5"><strong>Cartões de débito</strong></li>
+                    <li class="h4 lead px-5 mx-5"><strong>Cartões virtuais</strong></li>
+                    <li class="h4 lead px-5 mx-5"><strong>Débito em conta</strong></li>
+                </ul>
             </div>
         </div>
     </div>
 
-    <div class="py-4">
-        <div class="container pb-4">
-            <div class="row">
-                <!-- SEGUNDO QUADRO -->
-                <div class="col border mx-3 pt-3 rounded bg-light">
-                    <p class="display-4 text-center py-2">Aparelhos Compatíveis</p>
-                    <div class="d-flex flex-column justify-content-center align-items-center pt-2">
-                        <img class="p-2 rounded" width="800px" src="img/aparelhos.jpg" alt="aparelhos Eletrônicos">
-                    </div>
-                    <div class="py-4 px-5 mx-auto my-3">  
-                        <p class="h4 lead px-4  ml-4"><strong>Assista em qualquer aparelho conectado à internet compatível com o aplicativo NextMovie, como</strong></p> 
-                        <p class="h4 lead px-4"><strong>Smart TVs, videogames, aparelhos de streaming, decodificadores, smartphones e tablets. Você também</strong></p>
-                        <p class="h4 lead px-4"><strong>pode assistir no computador pelo navegador.</strong></p>
-                        
-                        <p class="h4 lead px-4  ml-4"><strong>Confira os requisitos do sistema para verificar a compatibilidade do seu navegador:</strong></p>
-                        <ul>
-                            <li class="h4 lead px-4"><strong>Computadores Windows com Windows XP ou mais recente</strong></li>
-                            <li class="h4 lead px-4"><strong>Computadores Mac com processadores Intel com OS X Tiger (v10.4.11) ou mais recente</strong></li>
-                            <li class="h4 lead px-4"><strong>iPads com iPadOS 13.0 ou mais recente</strong></li>
-                        </ul>
-                        <p class="h4 lead px-4 pb-3  ml-4"><strong>Consulte nossas recomendações de velocidade de internet para aproveitar ao máximo a NextMovie:</strong></p>
-                        <div class="d-flex justify-content-center align-items-center">
-                            <table style="border:1px solid black">
-                                <tr>
-                                    <th></th>
-                                    <th class="p-2 lead" style="border:1px solid black"><strong>Recomendação de megabits por segundo</strong></th>
-                                </tr>
-                                <tr>
-                                    <th class="p-2 lead" style="border:1px solid black"><strong>Definição padrão (SD)</strong></th>
-                                    <th class="p-2 lead" style="border:1px solid black"><strong>1 Mbps</strong></th>
-                                </tr>
-                                <tr>
-                                    <th class="p-2 lead" style="border:1px solid black"><strong>Alta definição (HD)</strong></th>
-                                    <th class="p-2 lead" style="border:1px solid black"><strong>720p: 3 Mbps  -  1080p: 5 Mbps</strong></th>
-                                </tr>
-                                <tr>
-                                    <th class="p-2 lead" style="border:1px solid black"><strong>4K/Ultra HD (UHD)</strong></th>
-                                    <th class="p-2 lead" style="border:1px solid black"><strong>15 Mbps</strong></th>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>    
-    </div>
-
-    <div class="py-4">
-        <div class="container pb-4">
-            <div class="row">
-                <!-- TERCEIRO QUADRO -->
-                <div class="col border mx-3 pt-3 rounded bg-light">
-                    <p class="display-4 text-center py-2">Planos e Preços</p>
-                    <div class="d-flex flex-column justify-content-center align-items-center pt-2">
-                        <img class="p-2 rounded" width="800px" src="img/criancas-tv.jpg" alt="Crianças assistindo TV">
-                    </div>
-                    <div class="py-4 px-5 mx-auto my-3">  
-                        <p class="h4 lead px-4 ml-4"><strong>Cada <a href="planos.html">plano</a> Netflix determina o número de aparelhos em que você pode assistir ao mesmo tempo e se</strong></p>
-                        <p class="h4 lead px-4"><strong>você prefere visualizar o conteúdo em definição padrão (SD), alta definição (HD) ou ultra-alta definição</strong></p>
-                        <p class="h4 lead px-4"><strong>(UHD). Compare <a href="planos.html">nossos planos e preços</a> e escolha o ideal para você. Você pode mudar de plano ou</strong></p>
-                        <p class="h4 lead px-4"><strong>cancelar online quando quiser.</strong></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="py-4">
-        <div class="container pb-4">
-            <div class="row">
-                <!-- QUARTO QUADRO -->
-                <div class="col border mx-3 pt-3 rounded bg-light">
-                    <p class="display-4 text-center py-2">Comece a usar já!</p>
-                    <div class="d-flex flex-column justify-content-center align-items-center pt-2">
-                        <img class="p-2 rounded" width="800px" src="img/casal.jpg" alt="Casal assistindo TV">
-                    </div>
-                    <div class="py-4 px-5 mx-auto my-3">  
-                        <p class="h4 lead px-4 ml-4 pb-2"><strong>Siga estas orientações para começar a assistir à NextMovie hoje mesmo:</strong></p>
-                        <ol>
-                            <li class="h4 lead px-4"><strong>Acesse <a href="index.html">NextMovie</a></strong></li>
-                            <li class="h4 lead px-4"><strong>Escolha o <a href="planos.html">plano</a> ideal para você.</strong></li>
-                            <li class="h4 lead px-4"><strong><a href="entrar.html">Crie uma conta</a> usando seu email e uma senha.</strong></li>
-                            <li class="h4 lead px-4"><strong>Insira uma forma de pagamento. As cobranças são feitas uma vez por mês, na data em que você assinou.</strong></li>
-                        </ol>
-                        <p class="h4 lead px-4"><strong>Pronto. Divirta-se!</strong></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="py-4"> 
-        <div class="container pb-4">
-            <div class="row">
-                <!-- QUARTO QUADRO -->
-                <div class="col border mx-3 pt-3 rounded bg-light">
-                    <p class="display-4 text-center py-2">Como pagar a assinatura NextMovie</p>
-                    <div class="d-flex flex-column justify-content-center align-items-center pt-2">
-                        <img class="p-2 rounded" width="800px" src="img/mulher-comendo-pipoca.jpg" alt="Crianças assistindo TV">
-                    </div>
-                    <div class="py-4 px-5 mx-auto my-3">  
-                        <p class="h4 lead px-4 ml-4"><strong>Escolha um <a href="planos.html">plano</a> adequado às suas necessidades e ao seu orçamento. Como assinante da</strong></p>
-                        <p class="h4 lead px-4"><strong>NextMovie, você é cobrado uma vez por mês no dia da sua assinatura. Existem várias maneiras de pagar</strong></p>
-                        <p class="h4 lead px-4 pb-2"><strong>a NextMovie:</strong></p>
-                        <ul>
-                            <li class="h4 lead px-4"><strong>Cartões de crédito</strong></li>
-                            <li class="h4 lead px-4"><strong>Cartões de débito</strong></li>
-                            <li class="h4 lead px-4"><strong>Cartões virtuais</strong></li>
-                            <li class="h4 lead px-4"><strong>Débito em conta</strong></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <!-- FOOTER -->
     <div class="footer pt-5">
         <footer class="container">
             <p class="float-right text-dark">© Copyright</p>
@@ -220,7 +177,7 @@
         </footer>
     </div>
 
-  <!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

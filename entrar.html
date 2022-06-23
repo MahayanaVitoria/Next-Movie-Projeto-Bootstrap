@@ -15,101 +15,80 @@
 </head>
 
 <body background="img/tablet.jpg" class="bg-secondary">
-    
-    <!-- <header class="clearfix bg-dark">
-        <div class="navbar text-white">
-            <nav class="navbar">
-                <div>
-                    <a href="index.html"><img class="float-left pl-3" width="200px" src="img/logo-sem-fundo.png" alt="Logo NextMovie"></a>
-                    <a class="nav-link float-left h5 p-3 pt-4 pl-5" href="index.html">Home</a>
-                    <a class="nav-link float-left h5 p-3 pt-4" href="planos.html">Planos</a>
-                    <a class="nav-link float-left h5 p-3 pt-4" href="sobre.html">Sobre</a>
-                    <a class="nav-link float-left h5 p-3 pt-4" href="entrar.html">Entrar</a>
-                </div>
-                <div>
-                    <form>
-                        <input class="rounded ml-4 p-2" type="search" placeholder="Pesquisar">
-                        <button class="btn btn-light rounded p-2">Pesquisar</button>
-                    </form>
-                </div>
-            </nav>
-        </div>
-    </header> -->
-
+  
+  <!-- LOGO CABEÇALHO -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3">
-        <a href="index.html"><img class="" width="170px" src="img/logo-sem-fundo.png" alt="Logo NextMovie"></a>
-        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link text-light h5 pl-4" href="index.html">Home <span class="sr-only">(página atual)</span></a>
-            </li>
+      <a href="index.html"><img class="" width="170px" src="img/logo-sem-fundo.png" alt="Logo NextMovie"></a>
+      <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <li class="nav-item">
-              <a class="nav-link text-light h5 pl-4" href="planos.html">Planos</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link text-light h5 pl-4" href="sobre.html">Sobre</a>
-            </li>
+    <!-- NAV CABEÇALHO -->
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-light h5 pl-4" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link text-light h5 pl-4" href="entrar.html">Entrar</a>
-            </li>
-          </ul>
+          <li class="nav-item">
+            <a class="nav-link text-light h5 pl-4" href="planos.html">Planos</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-light h5 pl-4" href="sobre.html">Sobre</a>
+          </li>
 
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button class="btn btn-light my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
+          <li class="nav-item">
+            <a class="nav-link text-light h5 pl-4" href="entrar.html">Entrar</a>
+          </li>
+        </ul>
+
+        <!-- CAMPO DE PESQUISA CABEÇALHO-->
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-light my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+
+      </div>
+  </nav>
+
+  <!-- FORMULÁRIO DE LOGIN   -->
+  <div class="container col-3 text-light mt-5 pt-5 pb-5">
+    <div>
+      <div class="row d-flex flex-column justify-content-center align-items-center"></divclass>
+        <div class="col-3 d-flex flex-column justify-content-center align-items-center">
+          <h1 class="pt-3 display-3">Entrar</h1>
+          <form>
+              <input class="rounded p-3 my-1 px-5" type="email" placeholder="Email">
+              <input class="rounded p-3 my-1 px-5" type="password" placeholder="Senha">
+          </form>   
+          <button class="btn btn-primary rounded p-2 px-5 float-left my-2">Entrar</button>
         </div>
-    </nav>
-
-    <!-- <div class="container py-2 pt-4 my-3">
-        <div class="row d-flex flex-column justify-content-center align-items-center">
-            <img class="" src="img/logo-sem-fundo.png" alt="Logo NextMovie">
-            
+        <div class="pb-3">
+          <input class="" type="checkbox" name="lembre" id="lembre"> Lembre-se de mim <br>
+          <a href="#">Precisa de ajuda?</a><br>
+          Novo por aqui?<a href="#">Cadastre-se</a>
         </div>
-    </div> -->
-    
-    <div class="container col-3 text-light mt-5 pt-5 pb-5">
-        <div>
-            <div class="row d-flex flex-column justify-content-center align-items-center"></divclass>
-                <div class="col-3 d-flex flex-column justify-content-center align-items-center">
-                    <h1 class="pt-3 display-3">Entrar</h1>
-                    <form>
-                        <input class="rounded p-3 my-1 px-5" type="email" placeholder="Email">
-                        <input class="rounded p-3 my-1 px-5" type="password" placeholder="Senha">
-                    </form>   
-                    <button class="btn btn-primary rounded p-2 px-5 float-left my-2">Entrar</button>
-                </div>
-                <div class="pb-3">
-                    <input class="" type="checkbox" name="lembre" id="lembre"> Lembre-se de mim <br>
-                    <a href="#">Precisa de ajuda?</a><br>
-                    Novo por aqui?<a href="#">Cadastre-se</a>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-    
-    <div class="footer pt-5">
-        <footer class="container">
-            <p class="float-right text-dark">© Copyright</p>
-            <p class="text-dark">
-                Todos os direitos reservados, 2022 .
-                <a class="text-dark" href="#">Privacidade</a> . <a class="text-dark" href="#">Termos</a>
-            </p>
-        </footer>
-    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer pt-5">
+    <footer class="container">
+      <p class="float-right text-dark">© Copyright</p>
+      <p class="text-dark">
+        Todos os direitos reservados, 2022 .
+        <a class="text-dark" href="#">Privacidade</a> . <a class="text-dark" href="#">Termos</a>
+      </p>
+    </footer>
+  </div>
 
   <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

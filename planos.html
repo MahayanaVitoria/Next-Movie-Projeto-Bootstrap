@@ -15,156 +15,158 @@
 </head>
 
 <body class="bg-secondary">
-    
-    <!-- <header class="clearfix bg-dark">
-        <div class="navbar text-white">
-            <nav class="navbar">
-                <div>
-                    <a href="index.html"><img class="float-left pl-3" width="200px" src="img/logo-sem-fundo.png" alt="Logo NextMovie"></a>
-                    
-                    <a class="nav-link float-left h5 p-3 pt-4 pl-5" href="index.html">Home</a>
-                    <a class="nav-link float-left h5 p-3 pt-4" href="planos.html">Planos</a>
-                    <a class="nav-link float-left h5 p-3 pt-4" href="sobre.html">Sobre</a>
-                    <a class="nav-link float-left h5 p-3 pt-4" href="entrar.html">Entrar</a>
-                </div>
-                <div>
-                    <form>
-                        <input class="rounded ml-4 p-2" type="search" placeholder="Pesquisar">
-                        <button class="btn btn-light rounded p-2">Pesquisar</button>
-                    </form>
-                </div>
-            </nav>
-        </div>
-    </header> -->
 
+    <!-- LOGO CABEÇALHO -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3">
         <a href="index.html"><img class="" width="170px" src="img/logo-sem-fundo.png" alt="Logo NextMovie"></a>
         <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
+
+      <!-- NAV CABEÇALHO -->
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link text-light h5 pl-4" href="index.html">Home <span class="sr-only">(página atual)</span></a>
-            </li>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light h5 pl-4" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+                </li>
 
-            <li class="nav-item">
-              <a class="nav-link text-light h5 pl-4" href="planos.html">Planos</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light h5 pl-4" href="planos.html">Planos</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light h5 pl-4" href="sobre.html">Sobre</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-light h5 pl-4" href="entrar.html">Entrar</a>
+                </li>
+            </ul>
+
+            <!-- CAMPO DE PESQUISA CABEÇALHO-->
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-light my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
             
-            <li class="nav-item">
-              <a class="nav-link text-light h5 pl-4" href="sobre.html">Sobre</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link text-light h5 pl-4" href="entrar.html">Entrar</a>
-            </li>
-          </ul>
-
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button class="btn btn-light my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
         </div>
-      </nav>
+    </nav>
 
+
+    <!-- INÍCIO DA PÁGINA -->
     <div class="container py-5 my-3">
         <div class="row">
-            <img class="col" src="img/logo-sem-fundo.png" alt="Logo NextMovie">
-            <p class="col text-light pt-5 lead">Assine a NextMovie hoje mesmo! Como assinante da NextMovie, você recebe 
-            cobranças automaticamente uma vez por mês no dia em que iniciou a assinatura. Você pode alterar seu plano ou cancelá-lo online quando quiser.</p>
+
+            <!-- LOGO -->
+            <div class="col-12 col-md-6">
+                    <img class="img-fluid" width="100%" height="auto" src="img/logo-sem-fundo.png" alt="Logo NextMovie">
+            </div>
+
+            <div class="col-12 col-md-6 pt-sm-4">
+
+                <!-- TEXTO -->
+                <p class="text-light pt-lg-4 lead">Assine a NextMovie hoje mesmo! Como assinante da NextMovie, você recebe 
+                    cobranças automaticamente uma vez por mês no dia em que iniciou a assinatura. Você pode alterar seu 
+                    plano ou cancelá-lo online quando quiser.
+                </p>
+
+            </div>
         </div>
     </div>
-    <div>
-        <div class="container pb-4">
-            <h2 class="display-4 text-center text-light mb-4">NOSSOS PLANOS</h2>
-            <div class="row">
-                <!-- PRIMEIRO QUADRO -->
-                <div class="col border mx-3 pt-3 rounded bg-light">
-                    <div class="d-flex flex-column justify-content-center align-items-center pt-2">
-                        <img class="p-2" width="190px" src="img/televisao.png" alt="Televisão">
-                    </div>
-                    <p class="display-4 text-center">Plano 1</p>
-                    <div class="p-2 p-3">  
+
+    <!-- CONTEÚDO PLANOS -->
+    <div class="container pb-4">
+        <h2 class="display-4 text-center text-light mb-3">NOSSOS PLANOS</h2>
+        
+        <!-- PRIMEIRA LINHA -->
+        <div class="row">
+
+            <!-- QUADRO 1/1 -->
+            <div class="card m-2" style="width: 22rem;">
+                <img class="card-img-top px-4 p-3" src="img/televisao.png" alt="Televisão">
+                <div class="card-body">
+                    <h4 class="card-title display-4 text-center">Plano 1</h4>
+                    
+                    <div class="card-text p-2 pb-4 p-3">  
                         <ul class="container pt-3">
                             <li>Acesso ilimitado a filmes, séries e jogos para aparelhos móveis</li>
                             <li>Assista no notebook, TV, celular ou tablet</li>
                             <li>Apenas 1 tela simultânea</li>
                         </ul>
                     </div>
-                    <!-- <p class="text-black pl-3 pb-4">R$ 25,90</p> -->
-                    <div class="p-2 pt-3 px-3 pb-3">
-                        <button class="btn btn-primary rounded">Assinar</button>
-                        <button class="btn btn-primary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <p class="h4 float-right">25,90/ao mês</p>
-                        <!-- <button class="btn btn-dark rounded float-right"><strong>R$ 39,90</strong></button> -->
-                        <!-- <img class="float-right text-black-50" width="40px" src="img/numero-16.png" alt="Classificação Indicativa 16 anos"> -->
-                    </div>
+
+                    <a href="entrar.html" class="btn btn-primary px-3 py-2">Assistir</a>
+                    <a href="sobre.html" class="btn btn-primary px-3 py-2"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></a>
+                    <p class="h4 float-right">25,90/ao mês</p>                
                 </div>
-                <!-- SEGUNDO QUADRO -->
-                <div class="col border mx-3 p-2 pt-4 rounded bg-light">
-                    <div class="p-2 d-flex justify-content-center align-items-center pt-4 pb-2">
-                        <img class="p-1" width="150px" src="img/televisao.png" alt="Televisão">
-                        <img class="p-1" width="150px" src="img/televisao.png" alt="Televisão">
-                    </div>
-                    <p class="display-4 text-center">Plano 2</p>
-                    <div class="p-2 pb-4 p-3">  
-                        <ul class="container pt-3">
+            </div>
+            
+            <!-- QUADRO 1/2 -->
+            <div class="card m-2" style="width: 22rem;">
+                <div class="d-flex justify-content-center align-items-center pt-5 pb-5">
+                    <img class="pt-4 p-1 pb-1" width="160px" src="img/televisao.png" alt="Televisão">
+                    <img class="pt-4 p-1 pb-1" width="160px" src="img/televisao.png" alt="Televisão">
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title display-4 text-center pt-5 pb-3">Plano 2</h4>
+
+                    <div class="card-text p-3">
+                        <ul class="container">
                             <li>Acesso ilimitado a filmes, séries e jogos para aparelhos móveis</li>
                             <li>Assista no notebook, TV, celular ou tablet</li>
                             <li>Apenas 2 telas simultâneas</li>
                         </ul>
                     </div>
-                    <!-- <p class="text-black pl-3 pb-4">R$ 25,90</p> -->
-                    <div class="p-2 pt-3 px-3 pb-3">
-                        <button class="btn btn-primary rounded">Assinar</button>
-                        <button class="btn btn-primary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <p class="h4 float-right">39,90/ao mês</p>
-                        <!-- <button class="btn btn-dark rounded float-right"><strong>R$ 39,90</strong></button> -->
-                        <!-- <img class="float-right text-black-50" width="40px" src="img/numero-16.png" alt="Classificação Indicativa 16 anos"> -->
-                    </div>
+                    <div class="pt-4">
+                        <a href="entrar.html" class="btn btn-primary px-3 py-2">Assistir</a>
+                        <a href="sobre.html" class="btn btn-primary px-3 py-2"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></a>
+                        <p class="h4 float-right">39,90/ao mês</p>  
+                    </div>    
                 </div>
-                <!-- TERCEIRO QUADRO -->
-                <div class="col border mx-3 p-2 pt-4 rounded bg-light">
-                    <div class="p-2 d-flex  justify-content-center align-items-center pt-5 pb-4 mb-2">
-                        <img class="p-1" width="100px" src="img/televisao.png" alt="Televisão">
-                        <img class="p-1" width="100px" src="img/televisao.png" alt="Televisão">
-                        <img class="p-1" width="100px" src="img/televisao.png" alt="Televisão">
-                    </div>                    
-                    <p class="display-4 text-center">Plano 3</p>
-                    <div class="p-2 pb-4 p-3">  
-                        <ul class="container pt-3">
+            </div>
+
+            <!-- QUADRO 1/3 -->
+            <div class="card m-2 pt-5" style="width: 22rem;">
+                <div class="d-flex  justify-content-center align-items-center">
+                    <img class="p-1" width="140px" src="img/televisao.png" alt="Televisão">
+                    <img class="p-1" width="140px" src="img/televisao.png" alt="Televisão">
+                </div>                
+                <div class="d-flex  justify-content-center align-items-center p-2">
+                    <img class="" width="125px" src="img/televisao.png" alt="Televisão">
+                </div>    
+
+                <div class="card-body">
+                    <h4 class="card-title display-4 text-center pb-2">Plano 3</h4>
+
+                    <div class="card-text p-3 pb-3">  
+                        <ul class="container">
                             <li>Acesso ilimitado a filmes, séries e jogos para aparelhos móveis</li>
                             <li>Assista no notebook, TV, celular ou tablet</li>
-                            <li>Apenas 1 tela simultânea</li>
+                            <li>Apenas 2 telas simultâneas</li>
                         </ul>
                     </div>
-                    <!-- <p class="text-black pl-3 pb-4">R$ 25,90</p> -->
-                    <div class="p-2 pt-3 px-3 pb-3">
-                        <button class="btn btn-primary rounded">Assinar</button>
-                        <button class="btn btn-primary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <p class="h4 float-right">55,90/ao mês</p>
-                        <!-- <button class="btn btn-dark rounded float-right"><strong>R$ 39,90</strong></button> -->
-                        <!-- <img class="float-right text-black-50" width="40px" src="img/numero-16.png" alt="Classificação Indicativa 16 anos"> -->
+                    
+                    <div class="pt-4">
+                        <a href="entrar.html" class="btn btn-primary px-3 py-2">Assistir</a>
+                        <a href="sobre.html" class="btn btn-primary px-3 py-2"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></a>
+                        <p class="h4 float-right">39,90/ao mês</p>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
+    <!-- FOOTER -->
     <div class="footer pt-5">
         <footer class="container">
             <p class="float-right text-dark">© Copyright</p>
-            <p class="text-dark">
-                Todos os direitos reservados, 2022 .
+            <p class="text-dark">Todos os direitos reservados, 2022 .
                 <a class="text-dark" href="#">Privacidade</a> . <a class="text-dark" href="#">Termos</a>
             </p>
         </footer>
     </div>
 
-  <!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

@@ -15,89 +15,73 @@
 
 </head>
 
-<body class="bg-secondary">  
-    <!-- <header class="clearfix bg-dark">
-        <div class="navbar text-white">
-            <nav class="navbar">
-                <div>
-                    <a href="index.html"><img class="float-left pl-3" width="200px" src="img/logo-sem-fundo.png" alt="Logo NextMovie"></a>
-                    <a class="nav-link float-left h5 p-3 pt-4 pl-5" href="index.html">Home</a>
-                    <a class="nav-link float-left h5 p-3 pt-4" href="planos.html">Planos</a>
-                    <a class="nav-link float-left h5 p-3 pt-4" href="sobre.html">Sobre</a>
-                    <a class="nav-link float-left h5 p-3 pt-4" href="entrar.html">Entrar</a>
-                </div>
-                <div>
-                    <form>
-                        <input class="rounded ml-4 p-2" type="search" placeholder="Pesquisar">
-                        <button class="btn btn-light rounded p-2">Pesquisar</button>
-                    </form>
-                </div>
-            </nav>
-        </div>
-    </header> -->
+<body class="bg-secondary">
 
+    <!-- LOGO CABEÇALHO -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3">
-        <a href="index.html"><img class="img-fluid" width="170px" src="img/logo-sem-fundo.png" alt="Logo NextMovie"></a>
+        <a href="index.html"><img class="" width="170px" src="img/logo-sem-fundo.png" alt="Logo NextMovie"></a>
         <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
+
+        <!-- NAV CABEÇALHO -->
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link text-light h5 pl-4" href="index.html">Home <span class="sr-only">(página atual)</span></a>
-            </li>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light h5 pl-4" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link text-light h5 pl-4" href="planos.html">Planos</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light h5 pl-4" href="sobre.html">Sobre</a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link text-light h5 pl-4" href="entrar.html">Entrar</a>
+                </li>
+            </ul>
 
-            <li class="nav-item">
-              <a class="nav-link text-light h5 pl-4" href="planos.html">Planos</a>
-            </li>
+            <!-- CAMPO DE PESQUISA CABEÇALHO-->
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-light my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
             
-            <li class="nav-item">
-              <a class="nav-link text-light h5 pl-4" href="sobre.html">Sobre</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link text-light h5 pl-4" href="entrar.html">Entrar</a>
-            </li>
-          </ul>
-
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button class="btn btn-light my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
         </div>
-      </nav>
+    </nav>
 
+    <!-- INÍCIO DA PÁGINA -->
     <div class="container py-5 my-3">
         <div class="row">
+
+            <!-- LOGO -->
             <div class="col-12 col-md-6">
-                <img class="img-fluid" width="100%" height="auto" src="img/logo-sem-fundo.png" alt="Logo NextMovie">
+                    <img class="img-fluid" width="100%" height="auto" src="img/logo-sem-fundo.png" alt="Logo NextMovie">
             </div>
+
             <div class="col-12 col-md-6 pt-sm-4">
-                <p class="text-light pt-lg-5 lead">Bem-Vindo à NextMovie! Assista as melhores séries online e sem propaganda! Veja a seguir algumas 
-                das séries mais populares.</p>
+                
+                <!-- TEXTO -->
+                <p class="text-light pt-lg-4 lead">Bem-Vindo à NextMovie! Assista as melhores séries online e sem propaganda! Veja a seguir algumas 
+                    das séries mais populares.
+                </p>
+
             </div>
         </div>
     </div>
+
+    <!-- CONTEÚDO HOME -->
     <div>
         <div class="container pb-4">
             <h2 class="display-4 text-center text-light mb-3">MAIS POPULARES</h2>
-                                                                    <!-- PRIMEIRA LINHA -->
-            <div class="row">
-                <!-- <div class="col-12 col-md-12 col-lg-4 border pt-4 rounded bg-light">
-                    <img class="container mx-auto d-block img-fluid" width="300px" src="img/stranger-things.jpg" alt="Stranger Things">
-                    <p class="container pt-3">Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, 
-                    forças sobrenaturais e uma menina.
-                    </p>
-                    <p class="text-black-50 pl-3 pb-4">2016 | 4 temporadas</p>
-                    <div class="p-3 pt-5">
-                        <button class="btn btn-secondary rounded" onclick="window.location.href = 'entrar.html'">Assistir</button>                    
-                        <button class="btn btn-secondary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <img class="float-right text-black-50" width="40px" src="img/numero-16.png" alt="Classificação Indicativa 16 anos">
-                    </div>
-                </div> -->
 
-                                                                        <!-- QUADRO 1/1 -->
+            <!-- PRIMEIRA LINHA -->
+            <div class="row">
+
+                <!-- QUADRO 1/1 -->
                 <div class="card m-2" style="width: 22rem;">
                     <img class="card-img-top px-4 pt-4" src="img/stranger-things.jpg" alt="Stranger Things">
                     <div class="card-body">
@@ -112,21 +96,7 @@
                     </div>
                 </div>
 
-
-                <!-- <div class="col-12 col-md-12 col-lg-4 border pt-4 rounded bg-light">
-                    <img class="container mx-auto d-block img-fluid" width="300px" src="img/breaking-bad.png" alt="Breaking Bad">
-                    <p class="container pt-3">Um professor do secundário com cancro do pulmão terminal junta-se a um ex-aluno para fabricar 
-                    e vender metanfetaminas como forma de garantir o futuro da sua família.
-                    </p>
-                    <p class="text-black-50 pl-3 pb-2">2008 | 5 temporadas</p>
-                    <div class="p-3 pt-5">
-                        <button class="btn btn-secondary rounded" onclick="window.location.href = 'entrar.html'">Assistir</button>
-                        <button class="btn btn-secondary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <img class="float-right text-black-50" width="40px" src="img/numero-18.png" alt="Classificação Indicativa 18 anos">
-                    </div>
-                </div> -->
-
-                                                                          <!-- QUADRO 1/2 -->
+                <!-- QUADRO 1/2 -->
                 <div class="card m-2" style="width: 22rem;">
                     <img class="card-img-top px-4 pt-4" src="img/breaking-bad.png" alt="Breaking Bad">
                     <div class="card-body">
@@ -140,21 +110,8 @@
                         <img class="float-right" width="40" src="img/numero-18.png" alt="Classificação Indicativa 18 anos">
                     </div>
                 </div>
-
-                <!-- <div class="col-12 col-md-12 col-lg-4 border pt-4 rounded bg-light">
-                    <img class="container mx-auto d-block img-fluid" width="300px" src="img/round-6.webp" alt="Round 6">
-                    <p class="container pt-3">Centenas de jogadores falidos aceitam um estranho convite para um jogo de 
-                    sobrevivência. Um prêmio milionário aguarda, mas as apostas são altas e mortais.
-                    </p>
-                    <p class="text-black-50 pl-3 pb-2">2021 | 1 temporada</p>
-                    <div class="p-3 pt-5">
-                        <button class="btn btn-secondary rounded" onclick="window.location.href = 'entrar.html'">Assistir</button>
-                        <button class="btn btn-secondary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <img class="float-right text-black-50" width="40px" src="img/numero-18.png" alt="Classificação Indicativa 18 anos">
-                    </div>
-                </div> -->
-
-                                                                        <!-- QUADRO 1/3 -->
+                
+                <!-- QUADRO 1/3 -->
                 <div class="card m-2" style="width: 22rem;">
                     <img class="card-img-top px-4 pt-4" src="img/round-6.webp" alt="Round 6">
                     <div class="card-body">
@@ -168,27 +125,15 @@
                         <img class="float-right" width="40" src="img/numero-18.png" alt="Classificação Indicativa 18 anos">
                     </div>
                 </div>
-
             </div>
         </div>
 
         <div class="container pb-3">
+
             <!-- SEGUNDA LINHA  -->
             <div class="row">
-                <!-- <div class="col-12 col-md-12 col-lg-4 border pt-4 rounded bg-light">
-                    <img class="container mx-auto d-block img-fluid" width="300px" src="img/orange-is-the-new-black.jpg" alt="Orange is the New Black">
-                    <p class="container pt-3">Um crime cometido no passado coloca uma privilegiada nova-iorquina na prisão, onde ela faz 
-                    várias amigas. E inimigas.
-                    </p>
-                    <p class="text-black-50 pl-3 pb-5">2013 | 7 temporadas</p>
-                    <div class="p-3 pt-4">
-                        <button class="btn btn-secondary rounded" onclick="window.location.href = 'entrar.html'">Assistir</button>
-                        <button class="btn btn-secondary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <img class="float-right text-black-50" width="40px" src="img/numero-18.png" alt="Classificação Indicativa 18 anos">
-                    </div>
-                </div> -->
 
-                                                                    <!-- QUADRO 2/1 -->
+                <!-- QUADRO 2/1 -->
                 <div class="card m-2" style="width: 22rem;">
                     <img class="card-img-top px-4 pt-4" src="img/orange-is-the-new-black.jpg" alt="Orange is the New Black">
                     <div class="card-body">
@@ -197,29 +142,18 @@
                         <p class="card-text pb-4">Um crime cometido no passado coloca uma privilegiada nova-iorquina na prisão, onde ela faz 
                             várias amigas. E inimigas.
                         </p>
-                            <!-- Div só pra alinhar os botões -->
+
+                        <!-- Div só pra alinhar os botões -->
                         <div class="pt-3">
                             <a href="entrar.html" class="btn btn-secondary px-4 py-2">Assistir</a>
                             <!-- <a href="sobre.html" class="btn btn-secondary"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></a> -->
                             <img class="float-right" width="40" src="img/numero-18.png" alt="Classificação Indicativa 18 anos">
                         </div>
+
                     </div>
                 </div>
-
-                <!-- <div class="col-12 col-md-12 col-lg-4 border pt-4 rounded bg-light">
-                    <img class="container mx-auto d-block img-fluid" width="300px" src="img/sex-education.jpg" alt="Sex Education">
-                    <p class="container pt-3">O inseguro Otis manja tudo quando o negócio é aconselhamento sexual, graças à sua mãe sexóloga. 
-                    E aí a rebelde Maeve propõe criar uma clínica de terapia sexual na escola.
-                    </p>
-                    <p class="text-black-50 pl-3 pb-2">2019 | 3 temporadas</p>
-                    <div class="p-3">
-                        <button class="btn btn-secondary rounded" onclick="window.location.href = 'entrar.html'">Assistir</button>
-                        <button class="btn btn-secondary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <img class="float-right text-black-50" width="40px" src="img/numero-16.png" alt="Classificação Indicativa 16 anos">
-                    </div>
-                </div> -->
-
-                                                                    <!-- QUADRO 2/2 -->
+                
+                <!-- QUADRO 2/2 -->
                 <div class="card m-2" style="width: 22rem;">
                     <img class="card-img-top px-4 pt-4" src="img/sex-education.jpg" alt="Sex Education">
                     <div class="card-body">
@@ -233,21 +167,8 @@
                         <img class="float-right" width="40" src="img/numero-16.png" alt="Classificação Indicativa 16 anos">
                     </div>
                 </div>
-
-                <!-- <div class="col-12 col-md-12 col-lg-4 border pt-4 rounded bg-light">
-                    <img class="container mx-auto d-block img-fluid" width="300px" src="img/atypical.jpg" alt="Atypical">
-                    <p class="container pt-3">Quando um adolescente com traços de autismo resolve arrumar uma namorada, sua busca por 
-                    independência coloca a família toda em uma aventura de autodescoberta.
-                    </p>
-                    <p class="text-black-50 pl-3 pb-2">2017 | 4 temporadas</p>
-                    <div class="p-3">
-                        <button class="btn btn-secondary rounded" onclick="window.location.href = 'entrar.html'">Assistir</button>
-                        <button class="btn btn-secondary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <img class="float-right text-black-50" width="40px" src="img/numero-14.png" alt="Classificação Indicativa 14 anos">
-                    </div>
-                </div> -->
-
-                                                                    <!-- QUADRO 2/3 -->
+                
+                <!-- QUADRO 2/3 -->
                 <div class="card m-2" style="width: 22rem;">
                     <img class="card-img-top px-4 pt-4" src="img/atypical.jpg" alt="Atypical">
                     <div class="card-body">
@@ -261,27 +182,15 @@
                         <img class="float-right" width="40" src="img/numero-14.png" alt="Classificação Indicativa 14 anos">
                     </div>
                 </div>
-
             </div>
         </div>
 
         <div class="container pb-3">
+
         <!-- TERCEIRA LINHA -->
             <div class="row">
-                <!-- <div class="col-12 col-md-12 col-lg-4 border pt-4 rounded bg-light">
-                    <img class="container mx-auto d-block img-fluid" width="300px" src="img/the-good-place.jpg" alt="The Good Place">
-                    <p class="container pt-3">Depois de morrer, a egocêntrica Eleanor é enviada por engano ao lado bom do Além. Agora ela está 
-                    determinada a se tornar uma pessoa melhor para continuar lá.
-                    </p>
-                    <p class="text-black-50 pl-3">2016 | 4 temporadas</p>
-                    <div class="p-3 pt-4">
-                        <button class="btn btn-secondary rounded" onclick="window.location.href = 'entrar.html'">Assistir</button>
-                        <button class="btn btn-secondary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <img class="float-right text-black-50" width="40px" src="img/numero-16.png" alt="Classificação Indicativa 16 anos">
-                    </div>
-                </div> -->
-
-                                                                    <!-- QUADRO 3/1 -->
+                
+                <!-- QUADRO 3/1 -->
                 <div class="card m-2" style="width: 22rem;">
                     <img class="card-img-top px-4 pt-4" src="img/the-good-place.jpg" alt="The Good Place">
                     <div class="card-body">
@@ -295,21 +204,8 @@
                         <img class="float-right" width="40" src="img/numero-16.png" alt="Classificação Indicativa 16 anos">
                     </div>
                 </div>
-
-                <!-- <div class="col-12 col-md-12 col-lg-4 border pt-4 rounded bg-light">
-                    <img class="container mx-auto d-block img-fluid" width="300px" src="img/riverdale.jpg" alt="Riverdale">
-                    <p class="container pt-3">Enquanto tentam lidar com problemas típicos da adolescência como amor, sexo, escola e família, 
-                    Archie e sua turma se envolvem em um grande mistério.
-                    </p>
-                    <p class="text-black-50 pl-3 pb-4">2017 | 5 temporadas</p>
-                    <div class="p-3 pt-4">
-                        <button class="btn btn-secondary rounded" onclick="window.location.href = 'entrar.html'">Assistir</button>
-                        <button class="btn btn-secondary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <img class="float-right text-black-50" width="40px" src="img/numero-16.png" alt="Classificação Indicativa 16 anos">
-                    </div>
-                </div> -->
-
-                                                                    <!-- QUADRO 3/2 -->
+                
+                <!-- QUADRO 3/2 -->
                 <div class="card m-2" style="width: 22rem;">
                     <img class="card-img-top px-4 pt-4" src="img/riverdale.jpg" alt="Riverdale">
                     <div class="card-body">
@@ -324,20 +220,7 @@
                     </div>
                 </div>
                 
-                <!-- <div class="col-12 col-md-12 col-lg-4 border pt-4 rounded bg-light">
-                    <img class="container mx-auto d-block img-fluid" width="300px" src="img/locke-e-key.jpg" alt="Locke & Key">
-                    <p class="container pt-3">Após o assassinato do pai, três irmãos se mudam com a mãe para uma casa antiga onde descobrem 
-                    chaves mágicas que revelam poderes e segredos.
-                    </p>
-                    <p class="text-black-50 pl-3 pb-4">2020 | 2 temporadas</p>
-                    <div class="p-3 pt-4">
-                        <button class="btn btn-secondary rounded" onclick="window.location.href = 'entrar.html'">Assistir</button>
-                        <button class="btn btn-secondary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <img class="float-right text-black-50" width="40px" src="img/numero-16.png" alt="Classificação Indicativa 16 anos">
-                    </div>
-                </div> -->
-
-                                                                    <!-- QUADRO 3/3 -->
+                <!-- QUADRO 3/3 -->
                 <div class="card m-2" style="width: 22rem;">
                     <img class="card-img-top px-4 pt-4" src="img/locke-e-key.jpg" alt="Locke & Key">
                     <div class="card-body">
@@ -351,30 +234,15 @@
                         <img class="float-right" width="40" src="img/numero-16.png" alt="Classificação Indicativa 16 anos">
                     </div>
                 </div>
-
             </div>
         </div>
 
         <div class="container pb-3">
+
         <!-- QUARTA LINHA -->
             <div class="row">
-                <!-- <div class="col-12 col-md-12 col-lg-4 border pt-4 rounded bg-light">
-                    <img class="container mx-auto d-block img-fluid" width="300px" src="img/heartstopper.jpg" alt="Heartstopper">
-                    <p class="container pt-3">Nesta série sobre amadurecimento, os adolescentes Charlie e Nick descobrem que são mais que 
-                        apenas amigos e precisam lidar com as dificuldades da vida escolar e amorosa.
-                    </p>
-                    <div class="row pl-3">
-                        <p class="text-black-50 pl-3 col">2022 | 1 temporada</p>
-                        <img width="60px" class="mr-4" src="img/new-azul.png" alt="New">
-                    </div>
-                    <div class="p-3 pt-4">
-                        <button class="btn btn-secondary rounded" onclick="window.location.href = 'entrar.html'">Assistir</button>
-                        <button class="btn btn-secondary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <img class="float-right text-black-50" width="40px" src="img/number-12.png" alt="Classificação Indicativa 12 anos">
-                    </div>
-                </div> -->
 
-                                                                    <!-- QUADRO 4/1 -->
+                <!-- QUADRO 4/1 -->
                 <div class="card m-2" style="width: 22rem;">
                     <img class="card-img-top px-4 pt-4" src="img/heartstopper.jpg" alt="Heartstopper">
                     <div class="card-body">
@@ -388,24 +256,8 @@
                         <img class="float-right" width="40" src="img/number-12.png" alt="Classificação Indicativa 12 anos">
                     </div>
                 </div>
-
-                <!-- <div class="col-12 col-md-12 col-lg-4 border pt-4 rounded bg-light">
-                    <img class="container mx-auto d-block img-fluid" width="300px" src="img/first-kill.jpg" alt="First Kill">
-                    <p class="container pt-3">O amor é uma coisa meio complicada para Juliette e Calliope: uma é vampira, a outra é caçadora de 
-                        vampiros. E as duas estão prontas para matar pela primeira vez.
-                    </p>
-                    <div class="row pl-3">
-                        <p class="text-black-50 pl-3 col">2022 | 1 temporada</p>
-                        <img width="60px" class="mr-4" src="img/new-azul.png" alt="New">
-                    </div>
-                    <div class="p-3 pt-4">
-                        <button class="btn btn-secondary rounded" onclick="window.location.href = 'entrar.html'">Assistir</button>
-                        <button class="btn btn-secondary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <img class="float-right text-black-50" width="40px" src="img/numero-16.png" alt="Classificação Indicativa 16 anos">
-                    </div>
-                </div> -->
-
-                                                                    <!-- QUADRO 4/2 -->
+                
+                <!-- QUADRO 4/2 -->
                 <div class="card m-2" style="width: 22rem;">
                     <img class="card-img-top px-4 pt-4" src="img/first-kill.jpg" alt="First Kill">
                     <div class="card-body">
@@ -422,21 +274,8 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="col-12 col-md-12 col-lg-4 border pt-4 rounded bg-light">
-                    <img class="container mx-auto d-block img-fluid" width="300px" src="img/love-death-and-robots.jpg" alt="Love, Death and Robots">
-                    <p class="container pt-3">Criaturas aterrorizantes, surpresas bizarras e humor ácido. Tudo isso e muito mais nesta série 
-                        de animação de Tim Miller e David Fincher.
-                    </p>
-                    <p class="text-black-50 pl-3 pb-4">2019 | 3 temporadas</p>
-                    <div class="p-3 pt-5">
-                        <button class="btn btn-secondary rounded" onclick="window.location.href = 'entrar.html'">Assistir</button>
-                        <button class="btn btn-secondary rounded"><img width="17" src="img/sinal-de-informacao.png" alt="Sinal de Informação"></button>
-                        <img class="float-right text-black-50" width="40px" src="img/numero-18.png" alt="Classificação Indicativa 18 anos">
-                    </div>
-                </div> -->
-
-                                                                    <!-- QUADRO 4/3 -->
+                
+                <!-- QUADRO 4/3 -->
                 <div class="card m-2" style="width: 22rem;">
                     <img class="card-img-top px-4 pt-4" src="img/love-death-and-robots.jpg" alt="Love, Death and Robots">
                     <div class="card-body">
@@ -452,22 +291,22 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
+    <!-- FOOTER -->
     <div class="footer pt-5">
         <footer class="container">
-            <p class="float-right text-dark">© Copyright</p>
-            <p class="text-dark">
+            <p class="float-right text-light">© Copyright</p>
+            <p class="text-light">
                 Todos os direitos reservados, 2022 .
-                <a class="text-dark" href="#">Privacidade</a> . <a class="text-dark" href="#">Termos</a>
+                <a class="text-light" href="#">Privacidade</a> . <a class="text-light" href="#">Termos</a>
             </p>
         </footer>
     </div>
 
-  <!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
