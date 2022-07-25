@@ -59,15 +59,17 @@
         <div class="col-3 d-flex flex-column justify-content-center align-items-center">
           <h1 class="pt-3 display-3">Entrar</h1>
           <form>
-              <input class="rounded p-3 my-1 px-5" type="email" placeholder="Email">
-              <input class="rounded p-3 my-1 px-5" type="password" placeholder="Senha">
-          </form>   
-          <button class="btn btn-primary rounded p-2 px-5 float-left my-2">Entrar</button>
+              <input type="email" name="email" id="email" class="rounded p-3 my-1 px-5" placeholder="Email" required>
+              <input type="password" name="senha" id="senha" class="rounded p-3 my-1 px-5" placeholder="Senha" required>
+          </form>
+          <div>
+            <input type="submit" id="send" value="Entrar" class="btn btn-primary rounded p-2 px-5 float-left my-2">
+          </div> 
         </div>
         <div class="pb-3">
           <input class="" type="checkbox" name="lembre" id="lembre"> Lembre-se de mim <br>
           <a href="#">Precisa de ajuda?</a><br>
-          Novo por aqui?<a href="#">Cadastre-se</a>
+          Novo por aqui? <a href="#">Cadastre-se</a>
         </div>
       </div>
     </div>
@@ -89,6 +91,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/validacao-login.js"></script>
 
 </body>
 </html>
